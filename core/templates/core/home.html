@@ -1,0 +1,27 @@
+{% extends 'core/base.html' %} {% load static %} {% block content %}
+<div class="mt-5">
+    <div class="text-center">
+        <img src="{% static 'core/images/img1.jpg'%}" alt="Profile_Pic" class="img-thumbnail" width="250px" height="150px">
+    </div>
+    <div class="mt-5 text-white mx-5 text-justify">
+        <h1 class="font-weight-bold st-font">
+            Hello,
+        </h1>
+        <div class="px-4" style="line-height: 2rem;">
+            <p style="text-indent:100px;">I am <b class="text-warning">Himanshu Suryawanshi</b> having 5 years of full-stack Web Development experience for global business,I offer the technical expertise you are seeking for your web developer position.</p>
+            <p>Since earning my bachelor's degree in internet and web development from XYZ University, I have served as a web Developer at <b class="text-warning"> GS Technology</b>, one of biggest premier digital marketing and web development firm. In this
+                postion, I have led web development projects for clients in diverse industries including technology, manufacturing, pharmaceutical, hospitality, retail and financial services.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque accumsan fermentum metus ut imperdiet. Aenean rhoncus tellus sit amet tellus porta imperdiet. Donec eget tempus elit. Pellentesque eleifend ultricies ex, eget faucibus nulla
+                mattis in. Nam interdum, nulla quis ultricies porta, sapien urna placerat nisl, non varius arcu ex a tellus. Pellentesque pellentesque orci nec sodales accumsan. In iaculis, nulla a interdum pellentesque, mi ante eleifend lectus, vel maximus
+                risus neque at ligula. Aliquam eget tellus urna. Nullam a quam ut justo fringilla placerat. Vestibulum porttitor porttitor ante, ut faucibus eros mattis sed. Suspendisse ac magna id ligula euismod ornare sed at risus. Donec eget dapibus
+                erat. Aliquam erat volutpat. Nullam iaculis placerat purus, at dignissim neque facilisis vel. Mauris semper rhoncus lectus quis consectetur.</p>
+
+
+        </div>
+    </div>
+    <div class="text-center">
+        <a href="{% url 'contact' %} " class="btn btn-outline-warning my-3 mr-5">Hire Me</a>
+        <a href="{% url 'contact' %} " class="btn btn-outline-info my-3 ml-5">Contact</a>
+    </div>
+</div>
+{% endblock content %}

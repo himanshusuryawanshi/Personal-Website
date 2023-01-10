@@ -1,0 +1,30 @@
+        /* Font */
+        
+        .st-font {
+            font-family: "Satisfy";
+        }
+        
+        html,
+        body {
+            height: 100%;
+        }
+        
+        .container-fluid {
+            min-height: 100%;
+        }
+        
+        .i-colo {
+            color: chartreuse;
+        }
+        
+        .ss-color {
+            color: silver;
+        }
+        
+        .nav-link {
+            color: whitesmoke;
+        }
+        
+        .side:hover {
+            color: black;
+        }
